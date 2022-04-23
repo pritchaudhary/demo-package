@@ -1,2 +1,2 @@
-!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e||self).demoHelper={})}(this,function(e){e.transformNullToString=function(e){return"number"==typeof e||e&&"."!==e?e.toString():""}});
+!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?o(exports):"function"==typeof define&&define.amd?define(["exports"],o):o((e||self).demoHelperPritam={})}(this,function(e){var o=function(e){return"number"==typeof e||e&&"."!==e?e.toString():""};e.amountToThousandSeparator=function(e){return console.log("PRITAM",e),o(e).replace(/\D/g,"").replace(/(\d+?)(?=(\d\d)+(\d)(?!\d))(\.\d+)?/g,"$1, ")},e.transformNullToString=o});
 //# sourceMappingURL=foo.umd.js.map
