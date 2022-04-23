@@ -1,0 +1,20 @@
+{
+  "name": "demo-helper",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/foo.js",
+  "exports": {
+    "require": "./dist/foo.cjs",
+    "default": "./dist/foo.modern.js"
+  },
+  "main": "./dist/foo.cjs",
+  "module": "./dist/foo.module.js",
+  "unpkg": "./dist/foo.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "microbundle": "^0.14.2"
+  }
+}
