@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e||self).demoHelperPritam=n()}(this,function(){var e=function(e){return"number"==typeof e||e&&"."!==e?e.toString():""};return{transformNullToString:e,amountToThousandSeparator:function(n){return e(n).replace(/\D/g,"").replace(/(\d+?)(?=(\d\d)+(\d)(?!\d))(\.\d+)?/g,"$1, ")}}});
+//# sourceMappingURL=helper.umd.js.map
